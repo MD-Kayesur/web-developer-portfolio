@@ -188,4 +188,20 @@ input[type="text"] , footer input[type="email"] , footer textarea{
     border: none;
     font-size: 20px;
 }
+.hide{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:475px) {
+    .skills-container{
+    flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+}
  
