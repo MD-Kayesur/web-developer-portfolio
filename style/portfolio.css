@@ -197,14 +197,20 @@ input[type="text"] , footer input[type="email"] , footer textarea{
 
 
 @media screen and (max-width:430px) {
-    .skills-container{
-    flex-direction: column;
+    .skills-container, .about-items, 
+    .resume-container, footer, .about-items{
+ flex-direction: column;
     }
-    .resume-container{
-        flex-direction: column;
+    footer, .about{
+        padding: 20px; 
     }
-    .about-items{
-        flex-direction: column;
+    .footer-column{
+        width: auto;
     }
+    input[type="text"] , footer input[type="email"] , footer textarea{
+     width: calc(100% - 40px);
+    }
+
+    
 }
  
